@@ -32,3 +32,32 @@
 ```bash
 pip install psycopg2-binary
 pip install Faker
+```
+
+### Заполните базу данных
+1)В папке DB_backup скачайте Library.backup.
+2)В pgAdmin нажмите на базу ПКМ "Восстановить"
+
+### Установите соединение с БД
+
+```bash
+connection_params = {
+    'host': 'localhost',
+    'database': 'your_name_db', 
+    'user': 'your_name_user',
+    'password': 'your_password',
+    'port': '5432'
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
